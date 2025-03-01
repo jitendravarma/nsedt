@@ -30,6 +30,7 @@ def price(result):
         "COP_DELIV_QTY",
         "COP_DELIV_PERC",
         "CH_SERIES",
+        "CH_DELIVERY_VOLUME",
     ]
 
     try:
