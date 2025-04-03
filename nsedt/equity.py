@@ -112,9 +112,9 @@ def get_price(
 
         if input_type == "stock":
             params = {
-                "symbol": symbol,
                 "from": current_window_start.strftime("%d-%m-%Y"),
                 "to": current_window_end.strftime("%d-%m-%Y"),
+                "symbol": symbol,
                 "dataType": "priceVolumeDeliverable",
                 "series": series,
             }
